@@ -69,7 +69,7 @@ python -m pip install -r requirements.txt
 
 Run the application from the project root:
 
-python travel_helper/main.py
+python -m travel_helper.main
 
 Follow the on-screen prompts to receive a travel destination recommendation.
 
