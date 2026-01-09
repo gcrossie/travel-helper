@@ -2,29 +2,24 @@
 
 Travel Helper is a command-line Python application that recommends a travel destination based on user preferences such as trip type, temperature, travel duration, and activities.
 
-The purpose of this project is to demonstrate a clear Python project structure, modular code, use of a class, dependency management with requirements.txt, and basic Git workflow.
+The goal of this project is to demonstrate a clear Python project structure, modular code, class-based logic, custom logging, and safe user input handling.
 
 ---
 
 ## Features
 
 - Interactive command-line interface
-- Destination recommendation based on:
-  - Trip type (city, nature)
-  - Preferred temperature (cold, mild, warm)
-  - Travel duration (short, week, long)
-  - Activities (single or multiple choice)
 - Recommendation logic handled by a class
 - Modular Python files
 - Custom logger (logs to console and file)
 - Dependency management via requirements.txt
+- Uses a virtual environment (venv)
 
 ---
 
 ## Project Structure
 
 travel-helper/
-│
 ├── travel_helper/
 │   ├── main.py
 │   ├── recommender.py
@@ -35,11 +30,10 @@ travel-helper/
 │   │   ├── config.py
 │   │   └── __init__.py
 │   └── __init__.py
-│
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-└── venv/        # local virtual environment (not tracked by git)
+└── venv/   (local virtual environment, not tracked by git)
 
 ---
 
@@ -68,22 +62,12 @@ python -m pip install -r requirements.txt
 ## Usage
 
 Run the application from the project root:
-
 python travel_helper/main.py
 
-Follow the on-screen prompts to receive a travel destination recommendation.
-
----
-
-## Dependencies
-
-All external dependencies are listed in requirements.txt.
-
-- colorama
+Follow the prompts to receive a travel destination recommendation based on your preferences.
 
 ---
 
 ## Author
 
 Gabriella Cross
-
