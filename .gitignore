@@ -11,6 +11,10 @@ venv /
 # VS Code settings
 .vscode/ 
 
+# Logs
+logs/
+*.log
+
 # OS files
 .DS_Store 
 Thumbs.db
